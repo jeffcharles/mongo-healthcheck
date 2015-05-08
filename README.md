@@ -1,5 +1,9 @@
 # mongo-healthcheck
 
+[![NPM](https://nodei.co/npm/mongo-healthcheck.png)](https://nodei.co/npm/mongo-healthcheck/)
+
+[![Build Status](https://travis-ci.org/jeffcharles/mongo-healthcheck.svg?branch=master)](https://travis-ci.org/jeffcharles/mongo-healthcheck)
+
 A simple function for checking if your mongoose connection to MongoDB is good.
 
 ## Usage
