@@ -11,6 +11,10 @@
   ],
   "author": "Jeffrey Charles <jeffreycharles@beyondtechnicallycorrect.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffcharles/mongo-healthcheck"
+  },
   "devDependencies": {
     "jscs": "^1.13.1",
     "jshint": "^2.7.0",
