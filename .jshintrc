@@ -1,0 +1,31 @@
+{
+  "bitwise": true,
+  "expr": true,
+  "forin": true,
+  "freeze": true,
+  "globals": {
+    "__dirname": true,
+    "after": true,
+    "afterEach": true,
+    "before": true,
+    "beforeEach": true,
+    "console": true,
+    "describe": true,
+    "exports": true,
+    "it": true,
+    "module": true,
+    "process": true,
+    "require": true,
+    "setTimeout": true
+  },
+  "latedef": true,
+  "laxbreak": true,
+  "multistr": true,
+  "noarg": true,
+  "noempty": true,
+  "nonbsp": true,
+  "nonew": true,
+  "sub": true,
+  "undef": true,
+  "unused": "vars"
+}

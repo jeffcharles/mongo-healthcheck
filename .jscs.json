@@ -1,0 +1,103 @@
+{
+  "fileExtensions": [".js", ".jscs"],
+
+  "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch"
+  ],
+
+  "requireSpaceBeforeKeywords": [
+    "else",
+    "while",
+    "catch"
+  ],
+
+  "requireSpaceAfterKeywords": [
+    "do",
+    "if",
+    "else",
+    "try",
+    "void",
+    "with",
+    "return",
+    "typeof"
+  ],
+
+  "requireSpaceBeforeBlockStatements": true,
+
+  "requireSpacesInConditionalExpression": {
+    "afterTest": true,
+    "beforeConsequent": true,
+    "afterConsequent": true,
+    "beforeAlternate": true
+  },
+
+  "requireSpacesInFunction": {
+    "beforeOpeningCurlyBrace": true
+  },
+
+  "disallowSpacesInCallExpression": true,
+
+  "requireBlocksOnNewline": true,
+
+  "disallowEmptyBlocks": true,
+
+  "disallowSpacesInsideObjectBrackets": "all",
+
+  "disallowSpacesInsideArrayBrackets": "all",
+
+  "disallowSpacesInsideParentheses": true,
+
+  "disallowQuotedKeysInObjects": "allButReserved",
+
+  "disallowSpaceAfterObjectKeys": true,
+
+  "requireSpaceBeforeObjectValues": true,
+
+  "requireCommaBeforeLineBreak": true,
+
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+
+  "disallowSpaceBeforePostfixUnaryOperators": true,
+
+  "requireSpaceBeforeBinaryOperators": true,
+
+  "requireSpaceAfterBinaryOperators": true,
+
+  "disallowMultipleLineBreaks": true,
+
+  "disallowMixedSpacesAndTabs": true,
+
+  "disallowTrailingWhitespace": true,
+
+  "disallowTrailingComma": true,
+
+  "requireLineFeedAtFileEnd": true,
+
+  "requireCapitalizedConstructors": true,
+
+  "requireDotNotation": true,
+
+  "disallowYodaConditions": true,
+
+  "requireFunctionDeclarations": true,
+
+  "disallowNewlineBeforeBlockStatements": true,
+
+  "validateQuoteMarks": { "mark": "'", "escape": true },
+
+  "validateParameterSeparator": ", ",
+
+  "validateIndentation": 2,
+
+  "validateLineBreaks": "LF",
+
+  "excludeFiles": [
+    "node_modules/**"
+  ]
+}
