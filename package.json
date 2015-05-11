@@ -1,6 +1,6 @@
 {
   "name": "mongo-healthcheck",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A healthcheck for mongoose connections to MongoDB",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,7 @@
   "devDependencies": {
     "jscs": "^1.13.1",
     "jshint": "^2.7.0",
-    "mocha": "^2.2.4"
-  },
-  "dependencies": {
+    "mocha": "^2.2.4",
     "mongoose": "^4.0.2"
   }
 }
