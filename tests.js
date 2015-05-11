@@ -4,7 +4,9 @@ var assert = require('assert'),
 
 describe('Mongo healthcheck', function() {
   it('should throw `Disconnected` when it\'s not connected', function() {
-    assert.throws(mongoHealthcheck, function(err) {
+    assert.throws(function() {
+      mongoHealthcheck(mongoose);
+    }, function(err) {
       return (err instanceof Error) && /Disconnected/.test(err);
     });
   });
@@ -12,7 +14,7 @@ describe('Mongo healthcheck', function() {
   it('should return `Connected` when it\'s connected', function(done) {
     mongoose.connect('mongodb://localhost/test');
     mongoose.connection.once('open', function() {
-      assert(mongoHealthcheck(), 'Connected');
+      assert(mongoHealthcheck(mongoose), 'Connected');
       done();
     });
   });
