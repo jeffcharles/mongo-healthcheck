@@ -9,13 +9,14 @@ A simple function for checking if your mongoose connection to MongoDB is good.
 ## Usage
 
 ```javascript
-var mongoHealthcheck = require('mongo-healthcheck');
+var mongoHealthcheck = require('mongo-healthcheck'),
+  mongoose = require('mongoose');
 
 module.exports = function detailedHealthcheck(req, res) {
   var isError = false;
   var mongoResult;
   try {
-    mongoResult = mongoHealthcheck();
+    mongoResult = mongoHealthcheck(mongoose);
   } catch (err) {
     isError = true;
     mongoResult = err;
